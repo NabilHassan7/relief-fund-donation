@@ -3,3 +3,46 @@ body{
     padding: 0px;
     box-sizing: border-box;
 }
+
+.top-banner{
+    background-image: url(images/donation3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    /* filter: brightness(70%); */
+}
+
+.banner-text{
+    font-size: 100px;
+    color: red;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.banner-text-1{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.banner-text-2{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.center-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: inherit;
+}
