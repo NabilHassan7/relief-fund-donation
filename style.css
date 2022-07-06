@@ -25,6 +25,8 @@ body{
     align-items: center;
 }
 
+/*Start of top banner section*/
+
 .top-banner{
     background-image: url(./images/donation15.png);
     background-position: center;
@@ -62,6 +64,8 @@ body{
     margin: 0px;
     cursor: pointer;
 }
+
+/*Start of donation section*/
 
 .donation-section{
     height: 900px;
@@ -122,6 +126,8 @@ body{
     margin-bottom: 40px;
 }
 
+/*Start of donation plan section*/
+
 .donation-plan{
     height: 900px;
 }
@@ -173,6 +179,8 @@ body{
     background-color: #fff4d6;
 }
 
+/*Start of news update section*/
+
 .receive-update{
     height: 900px;
 }
@@ -213,6 +221,8 @@ body{
     cursor: pointer;
 }
 
+/*Start of footer*/
+
 .page-footer{
     width: 100%;
     background-color: #0b0d17;
@@ -230,6 +240,8 @@ body{
     color: #d9dbe1;
     margin-top: -20px;
 }
+
+/*Start of fund donation tracker*/
 
 .fund-donation-tracker{
     height: 800px;
