@@ -19,6 +19,12 @@ body{
     flex-direction: column;
 }
 
+.flex-container-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .top-banner{
     background-image: url(images/donation15.png);
     background-position: center;
@@ -43,7 +49,7 @@ body{
     margin-bottom: 40px;
 }
 
-.banner-button{
+.donate-now-button{
     height: 80px;
     width: 200px;
     border-radius: 5px;
@@ -55,4 +61,63 @@ body{
     border: 0px;
     margin: 0px;
 }
+
+.donation-section{
+    height: 90vh;
+}
+
+.donation-section-header{
+    height: 120px;
+    font-size: 60px;
+    font-family:'Inter', sans-serif;
+    font-weight: 1000;
+    color: #121212;
+    text-align: center;
+}
+
+.donation-section-text{
+    font-size: 28px;
+    font-family:'Poppins', sans-serif;
+    color: #707070;
+    margin: 40px;
+}
+
+.donation-amount-box{
+    height: 160px;
+    width: 170px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #707070;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.donation-amount-box-red{
+    height: 160px;
+    width: 170px;
+    background-color: #FFEEEE;
+    border: 3px solid #ff5959;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FF5959;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.donation-input-text{
+    height: 70px;
+    width: 50%;
+    border-bottom: 1px solid #b3b3b3;
+    font-family: "Poppins", sans-serif;
+    color: #b3b3b3;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 
