@@ -26,7 +26,7 @@ body{
 }
 
 .top-banner{
-    background-image: url(images/donation15.png);
+    background-image: url(./images/donation15.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,12 +63,12 @@ body{
 }
 
 .donation-section{
-    height: 90vh;
+    height: 900px;
 }
 
 .donation-section-header{
     height: 120px;
-    font-size: 60px;
+    font-size: 42px;
     font-family:'Inter', sans-serif;
     font-weight: 1000;
     color: #121212;
@@ -121,7 +121,7 @@ body{
 }
 
 .donation-plan{
-    height: 90vh;
+    height: 900px;
 }
 
 .plan-box-card{
@@ -172,7 +172,7 @@ body{
 }
 
 .receive-update{
-    height: 90vh;
+    height: 900px;
 }
 
 .email-subscribe-box{
@@ -226,3 +226,48 @@ body{
     margin-top: -20px;
 }
 
+.fund-donation-tracker{
+    height: 800px;
+}
+
+.fund-donation-title{
+    height: 120px;
+    font-size: 60px;
+    font-family:'Inter', sans-serif;
+    font-weight: 1000;
+    color: #121212;
+    text-align: center;
+}
+
+.fund-donation-subtitle{
+    font-size: 20px;
+    font-family:'Poppins', sans-serif;
+    color: #707070;
+    margin: 40px;
+}
+
+.fund-tracker-row{
+    margin-right: 80px;
+}
+
+.fund-tracker-row-margin{
+    margin-left: 80px;
+}
+
+.fund-amount-primary{
+    width: 300px;
+    font-size: 40px;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+    color: black;
+    background-color: #fcf6bd;
+    border-bottom: 1px solid black;
+}
+
+.fund-amount-secondary{
+    width: 300px;
+    font-size: 20px;
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+    color: black;
+}
